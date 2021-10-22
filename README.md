@@ -12,6 +12,8 @@ Page : https://www.spigotmc.org/resources/fspeed.95785/
 show enchant index list.
 * **/enchant \<index> \<level>**  
 enchant to handing item.
+* **/enchant remove \<index>**  
+remove enchant from handing item.
 
 ## Featured
 * Improve enchant list

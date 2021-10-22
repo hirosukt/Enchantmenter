@@ -1,0 +1,21 @@
+name: Enchantmenter
+version: '${version}'
+main: hirosuke.enchantmenter.Enchantmenter
+api-version: 1.16
+prefix: Enchantmenter
+authors: [ Hirosuke ]
+description: Add a enchantment to item in one command.
+commands:
+  enchant:
+    description: add enchantment to hand item.
+    permission: "enchantmenter.command"
+    permission-message: "§cYou don't have permission."
+  enchantlist:
+    description: show enchantment name list.
+    permission: "enchantmenter.command"
+    permission-message: "§cYou don't have permission."
+permissions:
+  enchantmenter.*:
+    default: op
+  enchantmenter.command:
+    default: op
